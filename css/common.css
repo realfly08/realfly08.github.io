@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding-top:60px;
+    background: #fff;
+    font:14px "microsoft yahei",arial,sans-serif;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dd,pre{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+#search,
+#banner,
+#news-list,
+.topic-list,
+.forecast-details,
+.check-more,
+.movie-lists,
+.movie-info-sale,
+#shopping-center,
+.information,
+#interests,
+#special-money,
+#comment-community,
+.footer-details{
+    width:1200px;
+    margin: 0 auto;
+}
+h3{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+a{
+    text-decoration: none;
+    color:#333;
+    vertical-align: baseline;
+}
+a:hover{
+    color:#267fd4;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float:right
+}
+.clear{
+    clear:both;
+}
+img{
+    vertical-align: bottom;
+}
+i{
+    display:inline-block;
+}

@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mtime</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mtime.css">
+</head>
+<body>
+<!--1、顶部导航条-->
+<header id="header-bar">
+    <!--左侧导航列表-->
+    <ul class="bar-left">
+        <li>
+            <a href="#" class="active" ><span>首页</span>
+            <b></b>         <!--底部白色小三角形-->
+            </a>
+        </li>
+        <li>
+            <a href="#"><span>购票</span>
+                <b></b>
+            </a>
+        </li>
+        <li>
+            <a href="#"><span>正版商城</span>
+                <b></b>
+            </a>
+        </li>
+        <li>
+            <a href="#"><span>新闻</span>
+                <b></b>
+            </a>
+        </li>
+        <li class="broadcast">
+            <a href="#">
+                <i></i>     <!--右上角红色小图标-->
+                <span>直播</span>
+                <b></b>
+            </a>
+        </li>
+        <li>
+            <a href="#"><span>发现</span>
+                <b></b>
+            </a>
+        </li>
+        <li>
+            <a href="#"><span>社区</span>
+                <b></b>
+            </a>
+        </li>
+        <li>
+            <a href="#"><span>会员</span>
+                <b></b>
+            </a>
+        </li>
+    </ul>
+    <!--中间LOGO图标-->
+    <div class="header-logo">
+        <a href="#" title="Mtime时光网"></a>
+    </div>
+    <!--右侧购物车图片-->
+    <div class="header-cart rt">
+        <i></i>
+        <div class="cart-detail">您的购物车还是空的，赶快选购哦。</div>
+    </div>
+    <!--右侧导航列表-->
+    <!--右侧登陆和注册列表-->
+    <ul class="bar-right rt">
+        <li><a href="#">登陆</a></li>
+        <li><a href="#">注册</a></li>
+    </ul>
+    <!--右侧app-->
+    <div class="bar-app rt">
+        <a href="#">
+            <i></i>
+            <b></b>
+            <em></em>
+            <span>App下载</span>
+        </a>
+        <img src="images/app.jpg" alt="">
+    </div>
+</header>
+<!--2、搜索框-->
+<div id="search">
+    <div class="search-input">
+        <div class="search-select">
+            <span>全部</span>
+            <em></em>
+            <!--<div class="search-show">-->
+                <ul class="search-show">
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">电影</a></li>
+                    <li><a href="#">影人</a></li>
+                    <li><a href="#">影院</a></li>
+                    <li><a href="#">商品</a></li>
+                    <li><a href="#">新闻</a></li>
+                </ul>
+            <!--</div>-->
+        </div>
+        <input type="text" placeholder="搜索电影、影院、影人、商品、新闻" class="text"/>
+        <div class="search-icon">
+            <a href="#" title="搜索"><i></i></a>
+        </div>
+    </div>
+</div>
+<!--3、Banner广告图片-->
+<div id="banner">
+    <!--轮播图片-->
+    <a href="#" class="slider-item active"><img src="images/banner-1.jpg" alt="" ></a>
+    <a href="#" class="slider-item"><img src="images/banner-2.jpg" alt=""></a>
+    <a href="#" class="slider-item"><img src="images/banner-3.jpg" alt=""></a>
+    <a href="#" class="slider-item"><img src="images/banner-4.jpg" alt=""></a>
+    <!--底部轮播圆点-->
+    <ul id="banner-index">
+        <li class="dot active"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+    </ul>
+    <i href="#" title="上一张" class="picture-prev banner-button"><i></i></i>
+    <i href="#" title="下一张" class="picture-next banner-button"><i></i></i>
+</div>
+<!--4、内容标题-->
+<div class="topic-list">
+    <p>今日热点</p>
+    <ul class="topics">
+        <li><a href="">时光对话</a></li>
+        <li><a href="">产业聚焦</a></li>
+        <li><a href="">电话情报</a></li>
+        <li><a href="">全球拾趣</a></li>
+    </ul>
+</div>
+<!--5、最新电影信息列表-->
+<div id="news-list">
+    <!--右侧直播-->
+    <aside class="rt">
+        <div><a href="#"><img src="images/news-0.jpg" alt=""></a></div>
+        <div class="livedetails">
+            <h3><p><a href="#">【时光动漫】美漫文化的盛宴宅男的派对</a></p></h3>
+            <h3>更多直播</h3>
+        </div>
+        <div class="live-list">
+            <div class="live-list-item">
+                <h4><a href="#">《建军大业》首映礼发布会</a></h4>
+                <p>2017年7月24日</p>
+                <a href="#">回放</a>
+                <i></i>
+            </div>
+            <div class="live-list-item">
+                <h4><a href="#">《建军大业》首映礼发布会</a></h4>
+                <p>2017年7月24日</p>
+                <a href="#">回放</a>
+                <i></i>
+            </div>
+            <div class="live-list-item">
+                <h4><a href="#">《建军大业》首映礼发布会</a></h4>
+                <p>2017年7月24日</p>
+                <a href="#">回放</a>
+                <i></i>
+            </div>
+            <div class="live-list-item">
+                <h4><a href="#">查看更多&gt;</a></h4>
+                <i></i>
+            </div>
+        </div>
+    </aside>
+    <!--左侧最新电影信息-->
+    <dl class="news-dl">
+        <dt><a href="#"><img src="images/news-1.jpg" alt=""></a></dt>
+        <dd>
+            <h3><a href="">萨姆沃辛顿:剧透《阿凡达2》会被爆头</a></h3>
+            <p><a href="">称拍"阿凡达"像拍独立电影 卡梅隆像家人</a></p>
+        </dd>
+    </dl>
+    <dl class="news-dl">
+        <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+        <dd>
+            <h3><a href="">那些好莱坞大明星错过的经典角色们</a></h3>
+            <p><a href="">银幕上看到的那些脸原本可能长这样</a></p>
+        </dd>
+    </dl>
+    <dl class="news-dl">
+        <dt><a href="#"><img src="images/news-3.jpg" alt=""></a></dt>
+        <dd>
+            <h3><a href="">《间谍同盟》发行UHD、BD蓝光碟</a></h3>
+            <p><a href="">大陆地区首发4K碟 超高清全新视觉体验</a></p>
+        </dd>
+    </dl>
+    <dl class="news-dl">
+        <dt><a href="#"><img src="images/news-4.jpg" alt=""></a></dt>
+        <dd>
+            <h3><a href="">查理兹塞隆性感亮相《极寒之城》首映</a></h3>
+            <p><a href="">身材傲人气场强大 埃及公主宝特拉秒变小猫咪</a></p>
+        </dd>
+    </dl>
+    <dl class="news-dl">
+        <dt><a href="#"><img src="images/news-5.jpg" alt=""></a></dt>
+        <dd>
+            <h3><a href="">《降临》发行中国区蓝光与DVD</a></h3>
+            <p><a href="">特别收录多段花絮 揭秘"七肢桶"文字设计过程</a></p>
+        </dd>
+    </dl>
+    <dl class="news-dl">
+        <dt><a href="#"><img src="images/news-6.jpg" alt=""></a></dt>
+        <dd>
+            <h3><a href="">超养眼！当孔雀王子遇到白雪公主</a></h3>
+            <p><a href="">马特波莫和莉莉柯林斯出席</a></p>
+        </dd>
+    </dl>
+    <div class="clear"></div>
+</div>
+<!--6、查看更多按钮-->
+<div class="check-more">
+    <button>查看更多</button>
+</div>
+<!--7、电影列表，最新上映电影和即将上映电影-->
+<div id="movie-info" style="margin-top: 50px">
+    <!--顶部电影和优惠活动列表项-->
+    <ul class="movie-lists">
+        <li><span class="active">正在售票&nbsp;<b>44</b>部</span></li>
+        <li><span>即将上映&nbsp;<b>59</b>部</span></li>
+        <li><span>优惠活动</span></li>
+    </ul>
+    <!--中间上映电影列表-->
+    <div class="movie-info-sale">
+        <!--左侧城市，影片名，影院-->
+        <dl class="movie-info-city lf">
+            <dt class="city-select">
+               <i></i>
+                <span>深圳</span>
+                <em></em>
+            </dt>
+            <dd class="film-select">
+                <span>选影片</span><span>共40部<em></em></span>
+            </dd>
+            <dd class="theater-select">
+                <span>找影院</span><span>共134家<em></em></span>
+            </dd>
+            <dd class="time-select">
+                <span>选时间</span><span><em></em></span>
+            </dd>
+            <dd class="buy-select">
+                <a href="#">快速购票</a>
+            </dd>
+        </dl>
+        <!--右侧电影名-->
+        <div class="movie-info-list rt">
+            <dl class="film-select-all">
+                <dt>
+                    <a href="#"><img src="images/movie-select-l.jpg" alt="" title="建军大业"></a>
+                    <div>
+                        <h3><a href="#">建军大业</a></h3>
+                        <p style="font-size: 13px;color:#777;margin-bottom:10px">07月27日上映 - <a href="#">剧情/</a><a href="#">历史</a></p>
+                        <p style="font-size: 13px;color:#777;margin-bottom:10px">133分钟 - IMAX/中国巨幕/…</p>
+                        <p><i class="shuangyinhao"></i>豪华阵容演绎青春热血战争史诗</p>
+                        <p><span>30</span>元起</p>
+                        <p><a href="#">选择购票</a></p>
+                    </div>
+                </dt>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+                <dd>
+                    <div>
+                        <a href="#"><img src="images/movie-select-1.jpg" alt=""></a>
+                    </div>
+                    <h4><a href="#">战狼2</a></h4>
+                    <p>选择购票</p>
+                </dd>
+            </dl>
+        </div>
+        <!--两个点击横移按钮-->
+        <a href="#" title="上一屏" class="prev-film-item"><i></i></a>
+        <a href="#" title="下一屏" class="next-film-item"><i></i></a>
+    </div>
+    <!--底部查看更多上映和即将上映电影-->
+    <div class="check-more">
+        <button>查看更多</button>
+    </div>
+</div>
+<!--购物商城-->
+<!--8、商城顶部信息-->
+<div class="topic-list">
+    <p>正版商城</p>
+    <ul class="topics">
+        <li><a href="">新品登陆</a></li>
+        <li><a href="">热销爆款</a></li>
+        <li><a href="">折扣促销</a></li>
+        <li><a href="">超前预售</a></li>
+    </ul>
+</div>
+<!--商城大的图片信息-->
+<div id="shopping-center">
+    <div><a href="#"><img src="images/shopping-1.jpg" alt=""></a></div>
+    <p><a href="#"><img src="images/shopping-l.jpg" alt=""></a></p>
+    <div><a href="#"><img src="images/shopping-2.jpg" alt=""></a></div>
+    <div><a href="#"><img src="images/shopping-3.jpg" alt=""></a></div>
+    <p><a href="#"><img src="images/shopping-l-1.jpg" alt=""></a></p>
+    <div><a href="#"><img src="images/shopping-4.jpg" alt=""></a></div>
+    <!--底部小图片信息-->
+    <ul class="clear shopping-tips">
+        <li>
+            <dl>
+                <dt style="margin-bottom:10px"><h4>居家日用</h4></dt>
+                <dd>潮牌男装&nbsp;&nbsp;时尚女装</dd>
+                <dd>服饰配件&nbsp;&nbsp;更多&gt;</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt style="margin-bottom:10px"><h4>服装服饰</h4></dt>
+                <dd>抱枕靠垫&nbsp;&nbsp;创意文具</dd>
+                <dd>水杯水壶&nbsp;&nbsp;更多&gt;</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt style="margin-bottom:10px"><h4>居家日用</h4></dt>
+                <dd>抱枕靠垫&nbsp;&nbsp;创意文具</dd>
+                <dd>水杯水壶&nbsp;&nbsp;更多&gt;</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt style="margin-bottom:10px"><h4>服装服饰</h4></dt>
+                <dd>抱枕靠垫&nbsp;&nbsp;创意文具</dd>
+                <dd>水杯水壶&nbsp;&nbsp;更多&gt;</dd>
+            </dl>
+        </li>
+    </ul>
+</div>
+<div class="check-more">
+    <button>查看更多</button>
+</div>
+<!--时光精选-->
+<!--精选大主题和分类主题-->
+<div class="topic-list">
+    <p>时光精选</p>
+    <ul class="topics">
+        <li><a href="">时光电影TOP100</a></li>
+        <li><a href="">观影指南</a></li>
+        <li><a href="">获奖佳片</a></li>
+        <li><a href="">特约影评</a></li>
+        <li><a href="">卡片大富翁</a></li>
+        <li><a href="">电影猜猜猜</a></li>
+    </ul>
+</div>
+<!--精选具体内容，电影预告和图片文字描述-->
+<!--最外层元素包裹层，页面100%宽-->
+<div id="mtime-forecast">
+    <!--内层元素，1200px宽度-->
+    <div class="forecast-details">
+        <!--顶部精选和分类导航的标题，1200px-->
+        <div class="information">
+            <div class="left-information">
+                <h3>新片预告</h3>
+                <a href="#" style="color:#fff">更多&gt;</a>
+            </div>
+            <div class="right-information"><h3>观影指南</h3></div>
+        </div>
+        <!--左侧：精选电影的预告-->
+        <div class="forecast-left lf">
+            <div class="forecast-pictures">
+                <dl class="lf">
+                    <dt>
+                        <a href="#"><img src="images/forecast-l.jpg" alt=""></a>
+                        <i></i>
+                    </dt>
+                    <dd>
+                        <h3><a href="#">《南汉山城》预告 金允石李秉宪对立飚戏又飙泪</a></h3>
+                        <span style="font-size:16px">2017.9韩国 上映</span>
+                    </dd>
+                </dl>
+                <ul class="rt">
+                    <li>
+                        <a href="#"><img src="images/forecast-2.jpg" alt=""></a>
+                        <div>
+                            <i class="lf"></i>
+                            <h4>《底特律》发终极预告</h4>
+                            <span>2017.8.4美国&nbsp;上映</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/forecast-2.jpg" alt=""></a>
+                        <div>
+                            <i class="lf"></i>
+                            <h4>《底特律》发终极预告</h4>
+                            <span>2017.8.4美国&nbsp;上映</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/forecast-3.jpg" alt=""></a>
+                        <div>
+                            <i class="lf"></i>
+                            <h4>《底特律》发终极预告</h4>
+                            <span>2017.8.4美国&nbsp;上映</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--右侧：观影指南，电影热度排名-->
+        <div class="forecast-right rt">
+            <ul>
+                <li><a href="#"><img src="images/forecast-4.jpg" alt=""></a></li>
+                <li>
+                    <dl class="forecast-movies">
+                            <dt>
+                                <h4>影片名</h4>
+                                <h4>时光热度排名</h4>
+                            </dt>
+                            <dd>
+                                <a href="#">三生三世十里...</a>
+                                <span class="movie-rank">01<i></i></span>
+                                <span class="movie-button-sale"><a href="#">预售</a></span>
+                            </dd>
+                            <dd>
+                                <a href="#">敦刻尔克</a>
+                                <span class="movie-rank">02<i></i></span>
+                                <span class="movie-button-want"><a href="#">想看</a></span>
+                            </dd>
+                            <dd>
+                                <a href="#">杀破狼·贪狼</a>
+                                <span class="movie-rank">03<i></i></span>
+                                <span class="movie-button-want"><a href="#">想看</a></span>
+                            </dd>
+                            <dd>
+                                <a href="#">侠盗联盟</a>
+                                <span class="movie-rank">04<b></b></span>
+                                <span class="movie-button-sale"><a href="#">预售</a></span>
+                            </dd>
+                            <dt>
+                                <a href="#">更多&gt;</a>
+                            </dt>
+                        </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="interests">
+    <h3>全球拾趣</h3>
+    <div>
+        <dl class="news-dl">
+            <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+            <dd>
+                <h3><a href="">告别大本的"三方国界"迎来沃尔伯格?</a></h3>
+                <p><a href="">收割众多好莱坞男神 最终命运不得而知</a></p>
+            </dd>
+        </dl>
+        <dl class="news-dl">
+            <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+            <dd>
+                <h3><a href="">告别大本的"三方国界"迎来沃尔伯格?</a></h3>
+                <p><a href="">收割众多好莱坞男神 最终命运不得而知</a></p>
+            </dd>
+        </dl>
+        <dl class="news-dl">
+            <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+            <dd>
+                <h3><a href="">告别大本的"三方国界"迎来沃尔伯格?</a></h3>
+                <p><a href="">收割众多好莱坞男神 最终命运不得而知</a></p>
+            </dd>
+        </dl>
+        <dl class="news-dl" style="margin-right: 0">
+            <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+            <dd>
+                <h3><a href="">告别大本的"三方国界"迎来沃尔伯格?</a></h3>
+                <p><a href="">收割众多好莱坞男神 最终命运不得而知</a></p>
+            </dd>
+        </dl>
+        <dl class="news-dl">
+            <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+            <dd>
+                <h3><a href="">告别大本的"三方国界"迎来沃尔伯格?</a></h3>
+                <p><a href="">收割众多好莱坞男神 最终命运不得而知</a></p>
+            </dd>
+        </dl>
+        <dl class="news-dl">
+            <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+            <dd>
+                <h3><a href="">告别大本的"三方国界"迎来沃尔伯格?</a></h3>
+                <p><a href="">收割众多好莱坞男神 最终命运不得而知</a></p>
+            </dd>
+        </dl>
+        <dl class="news-dl">
+            <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+            <dd>
+                <h3><a href="">告别大本的"三方国界"迎来沃尔伯格?</a></h3>
+                <p><a href="">收割众多好莱坞男神 最终命运不得而知</a></p>
+            </dd>
+        </dl>
+        <dl class="news-dl" style="margin-right: 0">
+            <dt><a href="#"><img src="images/news-2.jpg" alt=""></a></dt>
+            <dd>
+                <h3><a href="">告别大本的"三方国界"迎来沃尔伯格?</a></h3>
+                <p><a href="">收割众多好莱坞男神 最终命运不得而知</a></p>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="check-more">
+    <button>查看更多</button>
+</div>
+<div class="information">
+    <div class="left-information">
+        <h3>特色榜单</h3>
+        <a href="#">更多&gt;</a>
+    </div>
+    <div class="right-information"><h3>电影票房</h3></div>
+</div>
+<!--特色电影榜单集合，地区电影票房排行榜-->
+<div id="special-money">
+    <div class="left-special lf">
+        <dl>
+            <dt>
+                <div class="special-large"><a href="#"><img src="images/special-l-1.jpg" alt=""></a></div>
+                <div class="special-small">
+                    <a href="#"><img src="images/special-2.jpg" alt=""></a>
+                    <a href="#">
+                        <img src="images/special-3.jpg" alt="">
+                        <div class="cover">
+                            <b>15</b>部电影&gt;
+                        </div>
+                    </a>
+                </div>
+            </dt>
+            <dd><h3><a href="#">热门新片推荐</a></h3></dd>
+        </dl>
+        <dl>
+            <dt>
+            <div class="special-large"><a href="#"><img src="images/special-l-2.jpg" alt=""></a></div>
+            <div class="special-small">
+                <a href="#"><img src="images/special-4.jpg" alt=""></a>
+                <a href="#">
+                    <img src="images/special-5.jpg" alt="">
+                    <div class="cover">
+                        <b>25</b>部电影&gt;
+                    </div>
+                </a>
+            </div>
+            </dt>
+            <dd><h3><a href="#">IndieWire评21世纪最性感的25部电影</a></h3></dd>
+        </dl>
+        <dl>
+            <dt>
+            <div class="special-large"><a href="#"><img src="images/special-l-3.jpg" alt=""></a></div>
+            <div class="special-small">
+                <a href="#"><img src="images/special-6.jpg" alt=""></a>
+                <a href="#">
+                    <img src="images/special-7.jpg" alt="">
+                    <div class="cover">
+                        <b>17</b>部电影&gt;
+                    </div>
+                </a>
+            </div>
+            </dt>
+            <dd><h3><a href="#">那些精彩的海洋动画片</a></h3></dd>
+        </dl>
+        <dl>
+            <dt>
+            <div class="special-large"><a href="#"><img src="images/special-l-4.jpg" alt=""></a></div>
+            <div class="special-small">
+                <a href="#"><img src="images/special-8.jpg" alt=""></a>
+                <a href="#">
+                    <img src="images/special-7.jpg" alt="">
+                    <div class="cover">
+                        <b>100</b>部电影&gt;
+                    </div>
+                </a>
+            </div>
+            </dt>
+            <dd><h3><a href="#">《帝国》杂志新百大佳片</a></h3></dd>
+        </dl>
+    </div>
+    <div class="right-money rt">
+        <ul class="movie-area">
+            <li class="active"><span>内地</span></li>
+            <li><span>北美</span></li>
+            <li><span>全球</span></li>
+        </ul>
+        <ul class="movie-area-rank" >
+            <li>
+                <dl>
+                    <dt class="rank-number">01</dt>
+                    <dd class="rank-image"><img src="images/movie-money-1.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">战狼2</a></h3>
+                        <p>日票房：3085.9万</p>
+                        <p>累计：6.40亿</p>
+                        <p>单位：元</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt class="rank-number">02</dt>
+                    <dd class="rank-image"><img src="images/movie-money-2.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">建军大业</a></h3>
+                        <p>日票房：799.5万</p>
+                        <p>累计：1.47亿</p>
+                        <p>单位：元</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt class="rank-number">03</dt>
+                    <dd class="rank-image"><img src="images/movie-money-3.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">豆福传</a></h3>
+                        <p>日票房：159.7万</p>
+                        <p>累计：1185.2万</p>
+                        <p>单位：元</p>
+                    </dd>
+                </dl>
+            </li>
+            <p style="text-align: right"><a href="#">更多&gt;</a></p>
+        </ul>
+        <ul class="movie-area-rank" style="display:none">
+            <li>
+                <dl>
+                    <dt class="rank-number">01</dt>
+                    <dd class="rank-image"><img src="images/movie-money-4.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">敦刻尔克</a></h3>
+                        <p>周末票房：3085.9万</p>
+                        <p>累计：2.40亿</p>
+                        <p>单位：美元</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt class="rank-number">02</dt>
+                    <dd class="rank-image"><img src="images/movie-money-5.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">蜘蛛侠：英雄归来</a></h3>
+                        <p>周末票房：2799.5万</p>
+                        <p>累计：1.47亿</p>
+                        <p>单位：美元</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt class="rank-number">03</dt>
+                    <dd class="rank-image"><img src="images/movie-money-6.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">猩球崛起3：终极之战</a></h3>
+                        <p>周末票房：2159.7万</p>
+                        <p>累计：8185.2万</p>
+                        <p>单位：美元</p>
+                    </dd>
+                </dl>
+            </li>
+            <p style="text-align: right"><a href="#">更多&gt;</a></p>
+        </ul>
+        <ul class="movie-area-rank" style="display:none">
+            <li>
+                <dl>
+                    <dt class="rank-number">01</dt>
+                    <dd class="rank-image"><img src="images/movie-money-1.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">战狼2</a></h3>
+                        <p>周末票房：1.26亿</p>
+                        <p>累计：1.42亿</p>
+                        <p>单位：美元</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt class="rank-number">02</dt>
+                    <dd class="rank-image"><img src="images/movie-money-4.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">敦刻尔克</a></h3>
+                        <p>周末票房：7373.0万</p>
+                        <p>累计：2.34亿</p>
+                        <p>单位：美元</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt class="rank-number">03</dt>
+                    <dd class="rank-image"><img src="images/movie-money-3.jpg" alt=""></dd>
+                    <dd class="rank-data">
+                        <h3><a href="#">豆福传</a></h3>
+                        <p>周末票房：159.7万</p>
+                        <p>累计：1185.2万</p>
+                        <p>单位：元</p>
+                    </dd>
+                </dl>
+            </li>
+            <p style="text-align: right"><a href="#">更多&gt;</a></p>
+        </ul>
+    </div>
+</div>
+<div class="information">
+    <div class="left-information">
+        <h3>热门影评</h3>
+        <a href="#">更多&gt;</a>
+    </div>
+    <div class="right-information"><h3>社区活动</h3></div>
+</div>
+<!--热门影评和社区活动-->
+<div id="comment-community">
+    <!--左侧，热门影评-->
+    <div class="movie-comment">
+        <div class="left-comment">
+            <div>
+                <a href="#"><img src="images/content-l-1.jpg" alt=""></a>
+            </div>
+            <div class="left-comment-details">
+                <dl>
+                    <dt>
+                        <a href="#" title="inside"><img src="images/151242.31909281_64X64.jpg" alt=""></a>
+                        <p class="comment-people" style="text-align: center"><a href="#">inside</a><span>&nbsp;&nbsp;评&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="#">《阿唐奇遇》</a>&nbsp;&nbsp;<span class="movie-star">6.6</span></p>
+                    </dt>
+                    <dd><h3><a href="#">当科幻乱入传统文化</a></h3></dd>
+                    <dd><p class="comment-item-words"><i></i>真要为这个选材点个大大的赞，它可能是全世界第一部关于“茶宠”这一颇具中国传统文化特色的文人玩物的动画。</p></dd>
+                </dl>
+            </div>
+        </div>
+        <ul class="right-comment">
+            <li class="comment-item">
+                <a href="#" class="comment-item-picture" title="看不见的客人"></a>
+                <a href="#" class="comment-item-words"><i class="shuangyinhao"></i>片名的另一层含义：与时间赛跑。可以体现出弱势群体的逆袭：不能跟精英阶层拼财力拼权势，唯一能拼的也只有时间了</a>
+                <p class="comment-people"><a href="#">耳召召</a><span>&nbsp;评&nbsp;&nbsp;</span><a href="#">《看不见的客人》</a><span class="movie-star">8.0</span></p>
+            </li>
+            <li class="comment-item">
+                <a href="#" class="comment-item-picture" title="沉默"></a>
+                <a href="#" class="comment-item-words"><i class="shuangyinhao"></i>主人公洛特里哥神甫深感自己的重要性，从而产生了一种偏执的自傲。可他始终不明白的是，神为什么一直沉默？</a>
+                <p  class="comment-people"><a href="#">阿獠2012</a><span>&nbsp;评&nbsp;&nbsp;</span><a href="#">《沉默》</a></p>
+            </li>
+            <li class="comment-item">
+                <a href="#" class="comment-item-picture" title="超能查派"></a>
+                <a href="#" class="comment-item-words"><i class="shuangyinhao"></i>导演借查派成长过程中的家庭伦理来证明家庭关系与家庭教育对孩子成长的重要性。但最终还是成为了一个浪漫童话。</a>
+                <p  class="comment-people"><a href="#">卡斯蒂亚公爵</a><span>&nbsp;评&nbsp;&nbsp;</span><a href="#">《超能查派》</a></p>
+            </li>
+        </ul>
+</div>
+    <!--右侧，社区活动-->
+    <div class="community">
+        <a href="#"><img src="images/community.jpg" alt="" title="一个人没有信仰，这很恐怖">
+            <i>有奖征文</i>
+        </a>
+        <div class="community-info">
+            <h3><a href="#">一个人没有信仰，这很恐怖</a></h3>
+            <p>06月30日 00:00</p>
+            <p>什么是信仰？《肖申克的救赎》说：要么忙着生存，要么赶着去死，人总要做点什么；《七宗罪》说：这个世界...</p>
+            <a href="#" class="check-more"><button>我参加</button></a>
+        </div>
+    </div>
+</div>
+<!--底部分隔线-->
+<footer id="footer">
+    <div class="footer-line"></div>
+    <div class="footer-details">
+        <!--底部详情最左侧LOGO图-->
+        <div class="footer-logo">
+            <dl>
+                <dt><a href="#" title="Mtime时光网"></a></dt>
+                <dd>
+                    <a href="">加入我们</a>
+                    <a href="">联系我们</a>
+                </dd>
+                <dd>
+                    <a href="">站务论坛</a>
+                    <a href="">问题反馈</a>
+                </dd>
+                <dd>
+                    <a href="">社区准则</a>
+                    <a href="">网站地图</a>
+                </dd>
+                <dd><a href="">隐私政策</a>
+                    <a href="">English</a>
+                </dd>
+            </dl>
+        </div>
+        <!--底部详情中间map导航-->
+        <div class="footer-map">
+            <dl class="map-left">
+                <dt>栏目</dt>
+                <dd><a href="#">新闻</a></dd>
+                <dd><a href="#">影院</a></dd>
+                <dd><a href="#">商城</a></dd>
+                <dd><a href="#">社区</a></dd>
+            </dl>
+            <dl class="map-middle">
+                <dt>推荐</dt>
+                <dd><a href="#">观影指南</a><a href="#">电影票房</a></dd>
+                <dd><a href="#">时光对话</a><a href="#">新片预告</a></dd>
+                <dd><a href="#">特色榜单</a><a href="#">电影猜猜猜</a></dd>
+                <dd><a href="#">全球拾趣</a><a href="#">卡片大富翁</a></dd>
+            </dl>
+            <dl class="map-right">
+                <dt>关注我们</dt>
+                <dd style="margin-top:8px"><a href="#" class="weibo" title="微博"></a></dd>
+                <dd><a href="#" class="weixin" title="微信"></a></dd>
+                <dd><a href="#" class="rss" title="RSS"></a></dd>
+            </dl>
+        </div>
+        <!--底部详情中间周刊-->
+        <div class="footer-week">
+            <dl>
+                <dt>
+                    <h3>时光周刊</h3>
+                    <p>第201期</p>
+                </dt>
+                <dd>
+                    <a href="#"><img src="images/footer-week.jpg" alt="" title="时光周刊"></a>
+                </dd>
+                <dd class="week-input">
+                    <input type="text" placeholder="邮箱地址">
+                    <a href="#">订阅</a>
+                </dd>
+            </dl>
+        </div>
+        <!--底部详情最右侧手机app购票-->
+        <div class="footer-app">
+            <dl>
+                <dt>
+                    <h3>手机购票</h3>
+                    <span>&nbsp;方便&nbsp;实惠</span>
+                </dt>
+                <dd class="app-shop">
+                    <a href="#"></a>
+                </dd>
+                <dd>
+                    <p style="text-align: center">扫描二维码&nbsp;下载客户端</p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="footer-company">
+        <p>北京动艺时光网络科技有限公司Copyright 2006-2017 Mtime.com Inc. All rights reserved.</p>
+        <p>
+            <a href="#">京ICP证050715号&nbsp;</a>
+            <a href="#">网络视听许可证0108265号&nbsp;</a>
+            <a href="#">网络文化经营许可证&nbsp;</a>
+            <a href="#">广播电视节目制作经营许可证(京)字第1435号&nbsp;&nbsp;</a>
+            <a href="#">京公网安备：11010502032542号 <i></i></a>
+        </p>
+        <div class="bottom-picture">
+            <a href="#" class="bottom-picture-icon-1" title="可信网站"></a>
+            <a href="#" class="bottom-picture-icon-2"></a>
+            <a href="#"><img src="images/aqLogo.png" alt=""></a>
+            <a href="#" title="品牌官网"><img src="images/brand_bottom_small.jpg" alt=""></a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/mtime.js"></script>
+</body>
+</html>
